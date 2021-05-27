@@ -27,7 +27,16 @@ h1{
   font-weight: normal;
     font-family: 'Sacramento', cursive;
 }
-
+a{
+  color: #025955;
+  text-decoration: none;
+}
+a:hover{
+  background-color: #caf7e3;
+  font-size: 120%;
+  width: 310px;
+  height: 210px;
+}
 h3 ,h2{
 font-family: 'Montserrat', sans-serif;
 }
@@ -151,15 +160,22 @@ background-image: url("../pics/enpoLogo1.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-  margin: 3% 5% 0px 5%;
 border: 3px solid;
 height: 200px;
- width: 300px;
+width: 300px;
 background-color: #a5e1ad;
 }
 .dp{
   margin: 3% 5% 0px 5%;
 }
+.footer-link{
+  margin: 5px 15px 5px 15px;
+}
+.copyright{
+  padding-bottom: 10px;
+  margin-block-end:0px;
+}
 .bot-container{
-
+  margin: 0px;
+  background-color: #9fe6a0;
 }
