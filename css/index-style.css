@@ -94,6 +94,7 @@ hr{
 .navigation-items:hover {
   background-color: white;
   color: black;
+  opacity: 0.7;
 }
 
 .navigation-items {
@@ -123,6 +124,7 @@ hr{
 .about-pic{
   margin: 5px;
   border: 3px solid black;
+    border-radius: 30px;
 }
 
 #about-container {
@@ -143,8 +145,7 @@ hr{
 }
 
 .GE {
-  color: black;
-  background-image: url("../pics/enpoLogo1.png");
+  background-image: url("../pics/GE.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -152,12 +153,15 @@ hr{
   border: 3px solid;
   height: 200px;
   width: 300px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+border-radius: 30px
 }
 
 .GS {
-  color: black;
-  background-image: url("../pics/enpoLogo1.png");
+
+  background-image: url("../pics/SI.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -165,12 +169,14 @@ hr{
   border: 3px solid;
   height: 200px;
   width: 300px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+border-radius: 30px
 }
 
 .GM {
-  color: black;
-  background-image: url("../pics/enpoLogo1.png");
+  background-image: url("../pics/GM.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -178,12 +184,15 @@ hr{
   border: 3px solid;
   height: 200px;
   width: 300px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 30px
 }
 
 .GI {
-  color: black;
-  background-image: url("../pics/enpoLogo1.png");
+
+  background-image: url("../pics/Gi.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -191,12 +200,15 @@ hr{
   border: 3px solid;
   height: 200px;
   width: 300px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+border-radius: 30px
 }
 
 .GP {
-  color: black;
-  background-image: url("../pics/enpoLogo1.png");
+
+  background-image: url("../pics/GP.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -204,12 +216,18 @@ hr{
   border: 3px solid;
   height: 200px;
   width: 300px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 30px
 }
 
 .GC {
-  color: black;
-  background-image: url("../pics/enpoLogo1.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background-image: url("../pics/GC.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -217,19 +235,33 @@ hr{
   border: 3px solid;
   height: 200px;
   width: 300px;
-
+  border-radius: 30px
 }
-
-.CPST {
+.dp-name{
+  font-size: 40px;
+  background-color:white;
   color: black;
-  background-image: url("../pics/enpoLogo1.png");
+    opacity: 0.6;
+}
+.dp-name:hover{
+  background-color:black;
+  color: white;
+    opacity: 0.6;
+}
+.CPST {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background-image: url("../pics/CPST.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border: 3px solid;
   height: 200px;
   width: 300px;
-
+  margin: 3% 5% 0px 5%;
+  border-radius: 30px
 }
 
 .dp {
