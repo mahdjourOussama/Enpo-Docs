@@ -1,181 +1,250 @@
-
-body{
+body {
   font-family: 'Merriweather', serif;
-margin: 0px;
-padding: 0px;
-text-align: center;
-background-color: #caf7e3 ;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background-color: white;
 }
-header{
-margin: 0px;
-}
-nav{
-position: fixed;
-top: 0px;
-width: 100%;
-height: 50px;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-margin: 0px;
-padding:0px;
-background-color: #a5e1ad;
-color: #025955;
-}
-h1{
+h1 {
   line-height: 2;
   font-weight: normal;
-    font-family: 'Sacramento', cursive;
+  font-family: 'Sacramento', cursive;
 }
-a{
-  color: #025955;
+a {
+  text-align: center;
+  display: block;
+  color: white;
   text-decoration: none;
+  display: inline-block;
 }
-a:hover{
-  background-color: #caf7e3;
-  font-size: 120%;
-  width: 310px;
-  height: 210px;
+h3, h2 {
+  font-family: 'Montserrat', sans-serif;
 }
-h3 ,h2{
-font-family: 'Montserrat', sans-serif;
+p{
+  text-align: justify;
 }
 hr{
-border: 5px 0px 0px 0px solid ;
-background-color: #74c7b8;
-width: 50%;
-height: 1px;
+  max-width: 720px;
+  border: 5px 0px 0px 0px solid;
+  background-color: black;
+  width: 50%;
+  height: 1px;
 }
-#nav-bar-title{
-padding: 0px;
-margin: 3px   ;
+.first{
+  color: white;
+  background-image: url("../pics/wp1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-.navigation-bar{
-margin: 3px;
-display: flex;
-justify-content: space-around;
+.big-nav-container{
+
+  display: flex;
+  justify-content: center;
 }
-.navigation-items{
-margin-left: 30px;
-padding: 5px;
+.big-welcome-container{
+  padding-bottom: 50px;
+  margin-bottom: -160px;
+  display: flex;
+  justify-content: center;
 }
-.welcome{
-margin-top: 50px;
-padding: 8%;
-background-color: #a5e1ad;
+.big-department-container{
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+.big-about-container{
+  display: flex;
+  justify-content: center;
+}
+.big-bot-container{
+  color: white;
+      background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.cont{
+  max-width: 1440px;
+}
+.nav {
+  max-width: 1440px;
+  top: 0px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+}
+#nav-bar-title {
+  padding: 5px;
+  margin: 5px;
+}
+
+.navigation-bar {
+  margin: 3px;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-text{
+  margin: 5px;
+  padding: 2px;
+}
+.navigation-items:hover {
+  background-color: white;
+  color: black;
+}
+
+.navigation-items {
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.welcome {
+  max-width: 1440px;
+  padding: 8%;
+}
+
+.welcome-title {
+  color: white;
+  margin: 0px;
+  font-size: 400%;
+}
+
+.enpoLogo
+{
+  margin: 5px;
+  border:  3px solid black;
+  border-radius: 180px;
+  width: 300px;
+  height: 300px;
+}
+.about-pic{
+  margin: 5px;
+  border: 3px solid black;
+}
+
+#about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.about {
+  width: 40%;
+}
+
+#department-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.GE {
+  color: black;
+  background-image: url("../pics/enpoLogo1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 3% 5% 0px 5%;
+  border: 3px solid;
+  height: 200px;
+  width: 300px;
 
 }
-.welcome-title{
-  color: #025955;
-margin: 0px;
-font-size: 400%;
-}
-.enpoLogo{
-margin: 5px;
-}
-#about-container{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
-height: 70%;
-}
-.about{
-width: 40%;
-}
-#department-content{
 
-display: flex;
-justify-content: space-around;
-flex-wrap: wrap;
-padding: 10px;
+.GS {
+  color: black;
+  background-image: url("../pics/enpoLogo1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 3% 5% 0px 5%;
+  border: 3px solid;
+  height: 200px;
+  width: 300px;
+
 }
-.GE{
-background-image: url("../pics/enpoLogo1.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-margin: 3% 5% 0px 5%;
-border: 3px solid;
-height: 200px;
-width: 300px;
-background-color: #a5e1ad;
+
+.GM {
+  color: black;
+  background-image: url("../pics/enpoLogo1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 3% 5% 0px 5%;
+  border: 3px solid;
+  height: 200px;
+  width: 300px;
+
 }
-.GS{
-background-image: url("../pics/enpoLogo1.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-margin: 3% 5% 0px 5%;
-border: 3px solid;
-height: 200px;
- width: 300px;
-background-color: #a5e1ad;
+
+.GI {
+  color: black;
+  background-image: url("../pics/enpoLogo1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 3% 5% 0px 5%;
+  border: 3px solid;
+  height: 200px;
+  width: 300px;
+
 }
-.GM{
-background-image: url("../pics/enpoLogo1.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-margin: 3% 5% 0px 5%;
-border: 3px solid;
-height: 200px;
- width: 300px;
-background-color: #a5e1ad;
+
+.GP {
+  color: black;
+  background-image: url("../pics/enpoLogo1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 3% 5% 0px 5%;
+  border: 3px solid;
+  height: 200px;
+  width: 300px;
+
 }
-.GI{
-background-image: url("../pics/enpoLogo1.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-margin: 3% 5% 0px 5%;
-border: 3px solid;
-height: 200px;
-width: 300px;
-background-color: #a5e1ad;
+
+.GC {
+  color: black;
+  background-image: url("../pics/enpoLogo1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 3% 5% 0px 5%;
+  border: 3px solid;
+  height: 200px;
+  width: 300px;
+
 }
-.GP{
-background-image: url("../pics/enpoLogo1.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-margin: 3% 5% 0px 5%;
-border: 3px solid;
-height: 200px;
-width: 300px;
-background-color: #a5e1ad;
+
+.CPST {
+  color: black;
+  background-image: url("../pics/enpoLogo1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 3px solid;
+  height: 200px;
+  width: 300px;
+
 }
-.GC{
-background-image: url("../pics/enpoLogo1.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-margin: 3% 5% 0px 5%;
-border: 3px solid;
-height: 200px;
- width: 300px;
-background-color: #a5e1ad;
-}
-.CPST{
-background-image: url("../pics/enpoLogo1.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-border: 3px solid;
-height: 200px;
-width: 300px;
-background-color: #a5e1ad;
-}
-.dp{
+
+.dp {
   margin: 3% 5% 0px 5%;
 }
-.footer-link{
+
+.footer-link {
   margin: 5px 15px 5px 15px;
 }
-.copyright{
+
+.copyright {
   padding-bottom: 10px;
-  margin-block-end:0px;
+  margin-block-end: 0px;
 }
-.bot-container{
-  margin: 0px;
-  background-color: #9fe6a0;
+
+.bot-container {
+  max-width: 1440px;
 }
