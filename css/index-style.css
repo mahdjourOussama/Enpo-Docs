@@ -17,18 +17,33 @@ a {
   text-decoration: none;
   display: inline-block;
 }
-h3, h2 {
+h2 {
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+  margin: 0px ;
+}
+h3,h4{
   font-family: 'Montserrat', sans-serif;
+}
+h4{
+  font-size: 21px;
+  text-transform: uppercase;
 }
 p{
   text-align: justify;
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  line-height: 26px; 
+  text-indent: 30px; 
 }
 hr{
   max-width: 720px;
-  border: 5px 0px 0px 0px solid;
-  background-color: black;
-  width: 50%;
-  height: 1px;
+  background-color: #72aaa4;
+        width: 55%;
+        height: 2px;
+        border: 1.5px solid ;
+
+        padding: -20px;
+        border-radius: 30px;
 }
 .first{
   color: white;
