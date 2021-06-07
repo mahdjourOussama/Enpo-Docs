@@ -1,59 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>documents</title>
     <link rel="stylesheet" href="../css/documents.css">
 </head>
+
 <body>
-    <header class="main-header">
+    <header class="big-nav-container">
+        <nav class="nav container">
+            <a href="#">
+                <h4 id="nav-bar-title">CIC Polyland</h4>
+            </a>
+            <div class="navigation-bar">
+                <a href="#" class="navigation-items">
+                    <h4 class="nav-text">Home</h4>
+                </a>
+                <a href="#about-container" class="navigation-items">
+                    <h4 class="nav-text">about</h4>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <header class="second-header">
         <div class="container">
-            <div id="logo"><img src="../pics/161814657_211895457390397_4801218949405423305_n.jpg" width="40px" alt="cic polyland"></div>
-            <div class="enpodoc">ENPO<span>Doc</span></div>
             <nav>
-                <a href="http://">HOME</a>
-                <a href="http://">ABOUT</a>
+                <a aria-label="energetique" class="active">energetique</a>
+                <a aria-label="productique">productique</a>
             </nav>
         </div>
     </header>
-<header class="second-header">
     <div class="container">
-        <nav>  
-            <a aria-label="energetique" class="active" >energetique</a>
-            <a aria-label="productique" >productique</a>
-        </nav>
+        <section class="main-content">
+            <div class="grid">
+                <div class="side">
+                    <nav id="energetique">
+                        <button aria-label="s1" class="active">semestre 1</button>
+                        <button aria-label="s2">semestre 2</button>
+                        <button aria-label="s3">semestre 3</button>
+                        <button aria-label="s3">semestre 3</button>
+                        <button aria-label="s4">semestre 4</button>
+                        <button aria-label="s5">semestre 5</button>
+                    </nav>
+                    <nav id="productique">
+                        <button aria-label="s1" class="active">semestre 1</button>
+                        <button aria-label="s2">semestre 2</button>
+                        <button aria-label="s3">semestre 3</button>
+                        <button aria-label="s3">semestre 3</button>
+                        <button aria-label="s4">semestre 4</button>
+                        <button aria-label="s5">semestre 5</button>
+                    </nav>
+                </div>
+                <div class="second">
+                    <img src="../pics/loading.gif" id="loading" height="100%">
+                    <iframe id="drive" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%"
+                        width="100%"
+                        src="https://drive.google.com/embeddedfolderview?id=10QhOpEurO65NWLa8Lc0DGZQyW4a8wSBs#list"
+                        style="width:100%; height:300px; border:0;">
+                    </iframe>
+                </div>
+            </div>
+        </section>
     </div>
-</header>
-<div class="container">
-<section class="main-content">
-        <div class="grid">
-            <div class="side">
-                <nav id="energetique">
-                    <button aria-label="s1" class="active">semestre 1</button>
-                    <button aria-label="s2" >semestre 2</button>
-                    <button aria-label="s3" >semestre 3</button>
-                    <button aria-label="s3" >semestre 3</button>
-                    <button aria-label="s4" >semestre 4</button>
-                    <button aria-label="s5" >semestre 5</button>
-                </nav>
-                <nav id="productique">
-                    <button aria-label="s1" class="active" >semestre 1</button>
-                    <button aria-label="s2" >semestre 2</button>
-                    <button aria-label="s3" >semestre 3</button>
-                    <button aria-label="s3" >semestre 3</button>
-                    <button aria-label="s4" >semestre 4</button>
-                    <button aria-label="s5" >semestre 5</button>
-                </nav>
-            </div>
-            <div class="second">
-                <img src="../pics/loading.gif" id="loading" height="100%">
-                <iframe id="drive" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%" src="https://drive.google.com/embeddedfolderview?id=10QhOpEurO65NWLa8Lc0DGZQyW4a8wSBs#list" style="width:100%; height:300px; border:0;">
-                </iframe>
-            </div>
-        </div>
-</section>
-</div>
-<script src="../js/script.js"></script>
-<script src="../js/mecaniqueScript.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/mecaniqueScript.js"></script>
 </body>
+
 </html>

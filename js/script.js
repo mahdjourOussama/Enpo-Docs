@@ -55,6 +55,7 @@ function changeDrive(b) {
     var specialite = b.target.parentElement
     const loading = document.querySelector("#loading")
     const drive = document.querySelector("#drive")
+    loading.src = "../pics/loading.gif"+"?a="+Math.random();
     loading.style.display = "block"
     drive.style.display = "none"
     changeSemestre(specialite.id,semestre)
