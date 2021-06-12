@@ -6,7 +6,8 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Monsieur+La+Doulaise&family=Montserrat:wght@100&family=Sacramento&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="css/index-style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/index-style.css">
   <title>Enpo-Docs</title>
 </head>
 
@@ -19,19 +20,20 @@
           <a href="#">
             <h4 id="nav-bar-title">CIC Polyland</h4>
           </a>
-          <div class="navigation-bar">
-            <a href="#" class="navigation-items">
-              <h4 class="nav-text">Home</h4>
-            </a>
-            <a href="#about-container" class="navigation-items">
-              <h4 class="nav-text">about</h4>
-            </a>
-          </div>
+          <img id="hamburger" state="closed" src="./pics/hamburger-menu.png" width="30px" height="30px" alt="hamburger-menu" srcset="">
         </nav>
+        <div class="navigation-bar">
+          <a href="#" class="navigation-items">
+            <h4 class="nav-text">Home</h4>
+          </a>
+          <a href="#about-container" class="navigation-items">
+            <h4 class="nav-text">about</h4>
+          </a>
+        </div>
       </header>
       <div class="big-welcome-container">
         <div class="welcome">
-          <h1 class="welcome-title">ENPODocs</h1>
+          <h1 class="welcome-title">ENPO Docs</h1>
           <p>Cherchez-vous un cours, td, ou peut etre un TP<br>vous êtes au bon endroit
           </p>
         <a href="">Acceder aux documents</a>
@@ -40,17 +42,17 @@
     </section>
     <section class="second-section">
       <div class="big-about-container">
+        <h2 class="department-title">About Enpo</h2>
         <div id="about-container" class="cont">
           <div class="about">
-            <h3>About Enpo</h3>
-            <p>Ce site web</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dicta nisi, molestiae quos delectus non veniam, eos, maiores iste et possimus adipisci. Ducimus nesciunt commodi omnis perferendis quas dolorem mollitia ipsum rem, numquam obcaecati officia possimus praesentium. Officiis quos sequi nam laborum saepe dolor molestias magnam ratione a repellat fugit illum, beatae tenetur et quo consequatur ipsa? Quis accusantium, recusandae, neque molestiae dolores tenetur fuga omnis iure error necessitatibus corrupti suscipit. Ullam esse, amet voluptatibus cumque incidunt atque officiis impedit at distinctio nulla error eveniet exercitationem dolorem et fugit eaque temporibus deserunt! Molestias, dolore maiores cupiditate nihil non nesciunt vel.</p>
           </div>
           <img src="pics/enpoLogo1.png" alt="enpoLogo" class="about-pic">
         </div>
       </div>
       <div class="big-department-container">
+        <h2 class="department-title">Choisissez votre département</h2>
         <div id="department" class="cont">
-          <h2 id="department-title">Choisissez votre département</h2>
           <div id="department-content">
             <a href="#" class="dp">
               <div class="GE dp-image">
@@ -97,6 +99,7 @@
         <img src="./pics/cic-logo.png" alt="cic polyland" height="40px">
     </footer>
   </div>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
