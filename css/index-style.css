@@ -211,8 +211,12 @@ hr {
   padding: 0 10px;
 }
 .about p{
+  margin-top: -40px;
   font-size: 1.5rem;
   line-height: 2rem;
+}
+.about p a{
+  vertical-align: middle;
 }
 
 #department-content {
@@ -261,9 +265,7 @@ hr {
   padding: 0 10px;
 }
 
-.dp:hover > .dp-name{
 
-}
 
 .CPST {
   background-image: url("../pics/CPST.jpg");
@@ -321,7 +323,12 @@ footer p{
 }
 
 .open{
-  display: inline-block;
+
+}
+.hamburger-nav-active{
+}
+.header-hamburger-active{
+  flex-direction: row;
 }
 
 @media all and (max-width: 400px){
@@ -357,6 +364,16 @@ footer p{
   .about{
     width: 100%;
   }
+  .hamburger-nav-active{
+    display: inline-block;
+  }
+  .header-hamburger-active{
+    flex-direction: column;
+  }
+  .open{
+    display: inline-block;
+  }
+  
 }
 
 @media all and (max-width: 800px) and (min-width:400px){
@@ -377,4 +394,6 @@ footer p{
   .about{
     width: 90%;
   }
+
 }
+
