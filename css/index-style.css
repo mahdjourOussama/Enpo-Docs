@@ -10,6 +10,7 @@ body {
   text-align: center;
   background-color: white;
   font-family: 'Trebuchet MS', sans-serif;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -99,7 +100,7 @@ hr {
   font-family: 'Trebuchet MS', sans-serif;
 }
 
-.big-department-container {
+#big-department-container {
   color: black;
   display: flex;
   flex-direction: column;
@@ -190,7 +191,6 @@ hr {
 }
 
 .about-pic {
-  width: 40%;
   max-height: 400px;
 }
 
@@ -198,6 +198,7 @@ hr {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding-top: 40px;
 }
 .department-title{
   width: 100vw;
@@ -206,8 +207,12 @@ hr {
   border-bottom: 1px solid;
 }
 .about {
-  width: 40%;
+  width: 60%;
   padding: 0 10px;
+}
+.about p{
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 #department-content {
@@ -302,6 +307,7 @@ footer{
   height: 70px;
   position: relative;
   top: 5px;
+  overflow: hidden;
 }
 footer p{
   line-height: 1rem;
